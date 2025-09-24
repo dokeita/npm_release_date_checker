@@ -4,6 +4,11 @@ npm依存関係のリリース日を取得し、指定日時でフィルタリ�
 
 ## 使用方法
 
+前提として以下のコマンドの実行結果があること
+```bash
+git ls (-g) --all --json
+```
+
 ```bash
 # 基本実行
 uv run python get_release_dates.py <json_file>
